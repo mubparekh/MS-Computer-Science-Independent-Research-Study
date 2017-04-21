@@ -1,10 +1,10 @@
 # MS-Computer-Science-Independent-Research-Study
 
 Project Topic:
-Multiple Protein Network Alignment Using Pair-wise IBNAL Aligner 
+Multiple Protein Network Alignment Using Pair-wise Aligner 
 
 Abstract:
-Protein-protein interaction and their networks solve the problem of ﬁnding biological correspondences between species through their PPI network alignment. IBNAL is a cliquebased index network aligner which ﬁnds conserved network patterns accross pairs of networks. We present a global network alignment of multiple protein networks using IBNAL pair-wise aligner. Our algorithm presents four novel multiple alignment ways based on the number of cliques and nodes present in the networks to be aligned- Ascending and Descending sequence alignment, Consecutive network alignment and High-low network alignment. Our results conﬁrm that ascending alignment of the networks which are aligned from highest number of cliques to lowest number of cliques produces a better aligner than other alignment ways. Using our results we also show that as the number of alignment pair increases the quality of resulting alignment decreases. *For more information please refer the research paper*
+Protein-protein interaction and their networks solve the problem of ﬁnding biological correspondences between species through their PPI network alignment. The pair-wise aligner that we have used in this research is a cliquebased index network aligner which ﬁnds conserved network patterns accross pairs of networks. We present a global network alignment of multiple protein networks using IBNAL pair-wise aligner. Our algorithm presents four novel multiple alignment ways based on the number of cliques and nodes present in the networks to be aligned- Ascending and Descending sequence alignment, Consecutive network alignment and High-low network alignment. Our results conﬁrm that ascending alignment of the networks which are aligned from highest number of cliques to lowest number of cliques produces a better aligner than other alignment ways. Using our results we also show that as the number of alignment pair increases the quality of resulting alignment decreases. *For more information please refer the research paper*
 
 Java Algorithm:
 Multiple network aligner is an extension to IBNAL pair-wise aligner. My algorithm aligns multiple protein networks (undirected graphs) in four different ways. *Pseudocode can be refered from the research paper*
